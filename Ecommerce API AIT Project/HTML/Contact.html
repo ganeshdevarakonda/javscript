@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+</head>
+<style>
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: 80px auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+        font-size: 32px;
+
+    }
+ 
+    .contact-us {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .contact-us label {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .contact-us input,
+    .contact-us textarea {
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .contact-us button {
+        padding: 10px;
+        font-size: 16px;
+        background-color: #555;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .contact-us button:hover {
+        background-color: #333;
+    }
+
+
+</style>
+
+    <h1>contact-us</h1>
+    <hr>
+    <body style = "text-align:center"> 
+    <div class="container">
+    <form class="contact-us" method="post">
+
+    <label>Enter your name:</label><br><br>  
+    <input type="text" id="name" placeholder="enter your name" required />
+
+    <label>Enter your email:</label><br><br>
+    <input type="text" id="email" placeholder="email@example.com" required />
+
+    <label>Message:</label><br><br>
+    <textarea id="Message" rows="5" placeholder="enter your Message" required ></textarea>
+
+    <input type="submit" value="send">
+
+    </div>
+    </form>
+</body>
+</html>
